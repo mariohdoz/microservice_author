@@ -13,9 +13,9 @@
 |
 */
 
-$router->get('/author', 'AuthorController@index');
-$router->post('/author', 'AuthorController@store');
-$router->get('/author/{author}', 'AuthorController@show');
-$router->put('/author/{author}', 'AuthorController@update');
-$router->patch('/author/{author}', 'AuthorController@update');
-$router->delete('/author/{author}', 'AuthorController@destroy');
+$router->get('/authors', 'AuthorController@index');
+$router->post('/authors', 'AuthorController@store');
+$router->get('/authors/{author}', 'AuthorController@show');
+$router->put('/authors/{author}', 'AuthorController@update');
+$router->patch('/authors/{author}', 'AuthorController@update');
+$router->delete('/authors/{author}', 'AuthorController@destroy');

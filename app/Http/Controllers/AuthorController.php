@@ -40,7 +40,7 @@ class AuthorController extends Controller
      *
      * @return Illuminate\Http\Response
      */
-    public function store(Request $request){
+    public function store(Request $request){        
 
         $rules = [
             'name' => 'required|max:255',
